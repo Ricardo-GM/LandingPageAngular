@@ -4,6 +4,19 @@ Esta landing page fue desarrollada en Angular 10 usando componentes de Angular M
 
 
 # ProyectoAngular13Agosto
+Esta landing page fue desarrollada en Angular 10 usando componentes de Angular Material y Angular Flex Layout.
+El diseño inicial de esta landing page fue realizado en Figma.
+<br>
+<img height="700" src="https://github.com/Ricardo-GM/LandingPageAngular/blob/master/src/assets/img/Inicio.png" />
+<br>
+<img height="700" src="https://github.com/Ricardo-GM/LandingPageAngular/blob/master/src/assets/img/AcercaDe.png" />
+<br>
+<img height="700" src="https://github.com/Ricardo-GM/LandingPageAngular/blob/master/src/assets/img/Proyectos.png" />
+<br>
+<img height="700" src="https://github.com/Ricardo-GM/LandingPageAngular/blob/master/src/assets/img/Clientes.png" />
+<br>
+<img height="700" src="https://github.com/Ricardo-GM/LandingPageAngular/blob/master/src/assets/img/Footer.png" />
+<br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
 
