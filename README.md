@@ -1,3 +1,8 @@
+
+Esta landing page fue desarrollada en Angular 10 usando componentes de Angular Material y Angular Flex Layout. El diseño fue hecho en Figma.
+
+
+
 # ProyectoAngular13Agosto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
