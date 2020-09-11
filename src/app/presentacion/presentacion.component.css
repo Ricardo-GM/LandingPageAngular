@@ -1,0 +1,28 @@
+#presentacion {
+    width: 100%;
+    height: 700px;
+    background-image: url("https://i.pinimg.com/originals/87/22/19/872219e39469e56ff5742581122212bf.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tituloPresentacion {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#headlinePresentacion {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #ff5f40;
+    text-align: center;
+}
+
+#icono {
+    color: white;
+    align-content: center;
+}

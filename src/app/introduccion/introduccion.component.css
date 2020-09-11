@@ -1,0 +1,17 @@
+#titulo {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#paper {
+    background-color: #145161;
+    color: #eeeeee;
+    height: 500px;
+}
+
+#descripcion {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: justify;
+}

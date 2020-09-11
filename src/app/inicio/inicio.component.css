@@ -1,0 +1,50 @@
+    #inicio {
+        min-height: 700px;
+        background-color: #F1F3F8;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    
+    .informacion {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    #titulo {
+        font-size: 70px;
+        margin: 0px;
+    }
+    
+    #parrafo {
+        font-size: 25px;
+    }
+    
+    #botonPrincipal {
+        margin-right: 30px !important;
+        background-color: #393B44;
+        color: #D6E0F0;
+        width: 150px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    
+    #botonSecundario {
+        margin-left: 30px !important;
+        background-color: #D6E0F0;
+        color: #393B44;
+        width: 150px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    
+    .imagen {
+        padding-top: 2px;
+    }
+    
+    #sin-linea {
+        display: block;
+    }
