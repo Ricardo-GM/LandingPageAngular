@@ -6,7 +6,7 @@ Esta landing page fue desarrollada en Angular 10 usando componentes de Angular M
 # ProyectoAngular13Agosto
 Esta landing page fue desarrollada en Angular 10 usando componentes de Angular Material y Angular Flex Layout.
 <br>
-El diseño inicial de esta landing page fue realizado en Figma.
+El diseño inicial de esta landing page fue realizado en Figma. (https://www.figma.com/file/TzSIqGLsUZnR8zBs2vomXl/MockUp1?node-id=0%3A1)
 <br>
 <img height="auto" src="https://github.com/Ricardo-GM/LandingPageAngular/blob/master/src/assets/img/Inicio.png" />
 <br>
