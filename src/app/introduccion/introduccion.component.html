@@ -15,13 +15,13 @@
 </div> -->
 
 
-<div id="paper" fxLayout="row" fxLayoutAlign="space-evenly">
-    <div class="imagen" fxFlexAlign="center" fxFlex="50%">
+<div id="paper" fxLayout="row" fxLayoutAlign="space-evenly" [ngStyle.xs]="{'height.px': 500}">
+    <div class="imagen" fxFlexAlign="center" fxFlex="50%" fxHide.xs fxHide.sm>
         <img src="../../assets/img/foto2.png" id="imagen">
     </div>
     <div class="informacion" fxFlexAlign="center" fxFlex="50%">
-        <h1 id="titulo" [ngStyle.xs]="{'font-size.px': 30, 'margin.px': 10 }">Acerca de</h1>
-        <p id="parrafo" [ngStyle.xs]="{'font-size.px': 20, 'margin.px': 10 }">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis a, voluptate quaerat accusantium exercitationem explicabo! Pariatur repellat nam dolore magni nulla, animi voluptatum numquam quae corrupti deleniti corporis repellendus!</p>
+        <h1 id="titulo" [ngStyle.xs]="{'font-size.px': 50, 'margin.px': 10 }" [ngStyle.sm]="{'font-size.px': 50, 'margin.px': 50 }">Acerca de</h1>
+        <p id="parrafo" [ngStyle.xs]="{'font-size.px': 20, 'margin.px': 10 }" [ngStyle.sm]="{'font-size.px': 25, 'margin.px': 10 }">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis a, voluptate quaerat accusantium exercitationem explicabo! Pariatur repellat nam dolore magni nulla, animi voluptatum numquam quae corrupti deleniti corporis repellendus!</p>
     </div>
 
 </div>

@@ -1,19 +1,20 @@
 #contenedor {
-    height: 700px;
+    height: auto;
     background-color: #393B44;
 }
 
 #titulo {
-    margin: 0;
     font-size: 50px;
     color: #F1F3F8;
     text-align: center;
 }
 
-#tarjetas {}
+#tarjetas {
+    margin: 20px;
+}
 
 .card-proyecto {
-    width: 400px;
+    width: auto;
     margin-right: 50px;
     margin-left: 50px;
 }

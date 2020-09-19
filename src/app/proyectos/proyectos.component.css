@@ -2,6 +2,7 @@
     margin: 40px;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .card-proyecto {
