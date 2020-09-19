@@ -16,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { InicioComponent } from './inicio/inicio.component';
+import { ClientesComponent } from './clientes/clientes.component';
 
 
 
@@ -27,7 +28,8 @@ import { InicioComponent } from './inicio/inicio.component';
     PresentacionComponent,
     IntroduccionComponent,
     ProyectosComponent,
-    InicioComponent
+    InicioComponent,
+    ClientesComponent
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,7 @@
     }
     
     .informacion {
-        margin: 10px;
+        margin: 50px;
         text-align: center;
     }
     
@@ -20,7 +20,7 @@
     }
     
     #botonPrincipal {
-        margin-right: 30px !important;
+        margin-right: 30px;
         background-color: #393B44;
         color: #D6E0F0;
         width: 150px;
@@ -30,7 +30,7 @@
     }
     
     #botonSecundario {
-        margin-left: 30px !important;
+        margin-left: 30px;
         background-color: #D6E0F0;
         color: #393B44;
         width: 150px;

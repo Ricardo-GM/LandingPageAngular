@@ -1,0 +1,19 @@
+#contenedor {
+    height: 700px;
+    background-color: #393B44;
+}
+
+#titulo {
+    margin: 0;
+    font-size: 50px;
+    color: #F1F3F8;
+    text-align: center;
+}
+
+#tarjetas {}
+
+.card-proyecto {
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+}

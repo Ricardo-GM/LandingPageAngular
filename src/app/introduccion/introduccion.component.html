@@ -1,5 +1,5 @@
-<div id="paper">
-    <h1 id="titulo">Acerca de la empresa</h1>
+<!-- <div id="paper">
+    <h1 id="titulo">Acerca de </h1>
 
     <div id="descripcion" [ngStyle.xs]="{'font-size.px': 15}" [ngStyle.sm]="{'font-size.px': 18}" [ngStyle.md]="{'font-size.px': 22}" [ngStyle.lg]="{'font-size.px': 25}" [ngStyle.xl]="{'font-size.px': 30}">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a neque vel sem eleifend mattis lobortis ac mauris. Proin eleifend tincidunt aliquam. Proin consectetur ultrices purus quis feugiat. Aliquam erat volutpat. Maecenas ultrices eros
@@ -10,6 +10,18 @@
             tempus tortor lobortis vel. Nam et quam eget magna vestibulum suscipit ac a tortor. Suspendisse potenti.
         </p>
 
+    </div>
+
+</div> -->
+
+
+<div id="paper" fxLayout="row" fxLayoutAlign="space-evenly">
+    <div class="imagen" fxFlexAlign="center" fxFlex="50%">
+        <img src="../../assets/img/foto2.png" id="imagen">
+    </div>
+    <div class="informacion" fxFlexAlign="center" fxFlex="50%">
+        <h1 id="titulo" [ngStyle.xs]="{'font-size.px': 30, 'margin.px': 10 }">Acerca de</h1>
+        <p id="parrafo" [ngStyle.xs]="{'font-size.px': 20, 'margin.px': 10 }">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis a, voluptate quaerat accusantium exercitationem explicabo! Pariatur repellat nam dolore magni nulla, animi voluptatum numquam quae corrupti deleniti corporis repellendus!</p>
     </div>
 
 </div>

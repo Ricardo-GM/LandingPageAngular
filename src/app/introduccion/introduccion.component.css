@@ -1,17 +1,27 @@
-#titulo {
-    text-align: center;
-    margin-top: 0;
-    padding-top: 20px;
-}
-
 #paper {
-    background-color: #145161;
-    color: #eeeeee;
-    height: 500px;
+    background-color: #D6E0F0;
+    color: #393B44;
+    height: 700px;
 }
 
-#descripcion {
-    margin-right: 50px;
+#imagen {
+    height: auto;
     margin-left: 50px;
-    text-align: justify;
+    margin-right: 50px;
+    max-width: 100%;
+}
+
+.informacion {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#titulo {
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+
+#parrafo {
+    font-size: 30px;
 }

@@ -1,15 +1,15 @@
 <div id="inicio" fxLayout="row" fxLayoutAlign="space-evenly">
 
-    <div class="informacion" fxFlexAlign="center" fxFlex="60">
-        <h1 id="titulo" [ngStyle.xs]="{'font-size.px': 50}" [ngStyle.sm]="{'font-size.px': 50}">Esto es una Landing Page!</h1>
-        <p id="parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui facere cum laboriosam? Repellendus maiores architecto commodi ratione quasi. Maiores voluptatum facilis ipsum numquam fugit accusantium illum culpa cumque voluptas possimus!</p>
-        <div id="botones" fxLayout="row" fxLayoutAlign="center">
-            <button mat-raised-button id="botonPrincipal">Botón 1</button>
-            <button mat-raised-button id="botonSecundario">Botón 2</button>
+    <div class="informacion" fxFlexAlign="center" [ngStyle.md]="{'margin.px': 30}">
+        <h1 id="titulo" [ngStyle.xs]="{'font-size.px': 30, 'margin.px': 10 }" [ngStyle.sm]="{'font-size.px': 50}" [ngStyle.md]="{'font-size.px': 60}">Esto es una Landing Page!</h1>
+        <p id="parrafo" [ngStyle.xs]="{'font-size.px': 20, 'margin.px': 10 }">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui facere cum laboriosam? Repellendus maiores architecto commodi ratione quasi. Maiores voluptatum facilis ipsum numquam fugit accusantium illum culpa cumque voluptas possimus!</p>
+        <div id="botones" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
+            <button mat-raised-button id="botonPrincipal" [ngStyle.xs]="{'margin-right.px': 0, 'margin-bottom.px': 10}">Botón 1</button>
+            <button mat-raised-button id="botonSecundario" [ngStyle.xs]="{'margin-left.px': 0, 'margin-top.px': 10}">Botón 2</button>
 
         </div>
     </div>
-    <div class="imagen" fxLayoutAlign="end" fxHide.xs fxHide.sm>
+    <div class="imagen " fxLayoutAlign="end " fxHide.xs fxHide.sm fxHide.md>
         <img src="../../assets/img/foto1.png " id="sin-linea ">
     </div>
 

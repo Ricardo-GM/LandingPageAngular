@@ -9,19 +9,19 @@ import { ToolbarItem } from '../toolbar-item';
 export class ToolbarComponent implements OnInit {
 
   toolbarItems : ToolbarItem[] = [
+    
     {
-      nombre: "Inicio",
-      icono: "home"
-    },
-
-    {
-      nombre: "Introduccion",
+      nombre: "Acerca de",
       icono : "help"
     },
 
     {
       nombre: "Proyectos",
       icono: "work"
+    },
+    {
+      nombre: "Clientes",
+      icono: "people"
     },
     {
       nombre: "Contacto",
