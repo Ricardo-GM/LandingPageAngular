@@ -20,6 +20,7 @@ import { ClientesComponent } from './clientes/clientes.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,9 +40,10 @@ import { ClientesComponent } from './clientes/clientes.component';
     FlexLayoutModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}

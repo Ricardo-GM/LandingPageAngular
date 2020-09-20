@@ -1,11 +1,15 @@
 #contenedor {
     height: auto;
     background-color: #393B44;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #titulo {
-    font-size: 50px;
     color: #F1F3F8;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     text-align: center;
 }
 

@@ -1,12 +1,19 @@
 #proyectos {
-    margin: 40px;
-    justify-content: center;
-    align-items: center;
+    background-color: #8D93AB;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: auto;
 }
 
-.card-proyecto {
-    width: 400px;
-    margin-right: 50px;
-    margin-left: 50px;
+#titulo {
+    color: #F1F3F8;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#video {
+    width: 1800px;
+    height: 700px;
+    margin-bottom: 50px;
 }
